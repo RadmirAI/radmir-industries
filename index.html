@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Radmir Industries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Radmir Industries</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Добро пожаловать в Radmir Industries!</h2>
+      <p>Мы создаём передовые технологии, ботов и искусственный интеллект для будущего!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Radmir Industries. Все права защищены.</p>
+  </footer>
+
+</body>
+</html> 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>RadmirAI — Заказ бота</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0e0e1a;
+            color: #fff;
+            padding: 40px;
+        }
+        h1, h2 {
+            color: #00ffe7;
+        }
+        .bot-type {
+            background: #1a1a2e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+        .bot-type h3 {
+            margin-top: 0;
+            color: #00ffd0;
+        }
+        .price {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #ffd700;
+        }
+        form, label, input, select, textarea {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            background: #2a2a3a;
+            color: #fff;
+        }
+        input[type="submit"] {
+            background: #00ffe7;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        a {
+            color: #00ffe7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>RadmirAI — Создание ИИ-Ботов</h1>
+
+    <div class="bot-type">
+        <h3>1. Чат-бот</h3>
+        <p>Общается с клиентами, отвечает на частые вопросы, автоматизирует поддержку.</p>
+        <div class="price">Цена: от 5,000 ₸</div>
+    </div>
+
+    <div class="bot-type">
+        <h3>2. Голосовой бот</h3>
+        <p>Отвечает голосом, может принимать звонки и говорить с клиентом как человек.</p>
+        <div class="price">Цена: от 10,000 ₸</div>
+    </div>
+
+    <div class="bot-type">
+        <h3>3. Аналитический бот</h3>
+        <p>Анализирует данные, собирает статистику, помогает в принятии решений.</p>
+        <div class="price">Цена: от 15,000 ₸</div>
+    </div>
+
+    <h2>Оформить заказ</h2>
+    <form action="/order" method="POST">
+        <label for="botType">Тип бота:</label>
+        <select id="botType" name="botType" required>
+            <option value="Чат-бот">Чат-бот</option>
+            <option value="Голосовой бот">Голосовой бот</option>
+            <option value="Аналитический бот">Аналитический бот</option>
+        </select>
+
+        <label for="requirements">Описание задачи:</label>
+        <textarea id="requirements" name="requirements" rows="4" required></textarea>
+
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <input type="submit" value="Отправить заказ">
+    </form>
+
+    <h3 style="margin-top: 40px;">Связь и оплата</h3>
+    <p>После отправки заказа свяжитесь с нами в Telegram:</p>
+    <a href="https://t.me/RadmirAI" target="_blank">@RadmirAI</a>
+
+</body>
+</html> 
